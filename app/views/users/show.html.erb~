@@ -9,7 +9,7 @@
     <td class="sidebar round">
       <strong>Gender</strong> <%= @user.gender %><br />
       <strong>Weight</strong> <%= "#{@user.weight.to_s} pounds" %><br />
-      <strong>Height</strong> <%= " " "#{@user.height.to_s} feet" %><br />
+      <strong>Height</strong> <%= "#{@user.height.to_s} feet" %><br />
       <strong>URL</strong>  <%= link_to user_path(@user), @user %>
     </td>
   </tr>
