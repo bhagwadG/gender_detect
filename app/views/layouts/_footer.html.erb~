@@ -1,0 +1,8 @@
+<footer>
+  <nav class="round">
+    <ul>
+      <li><%= link_to "Train", '#' %></li>
+      <li><%= link_to "Classify", '#' %></li>
+    </ul>
+  </nav>
+</footer>
