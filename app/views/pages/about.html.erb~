@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Gender Detector | <%= @title %></title>
-  </head>
-  <body>
     <h1>About App</h1>
     <p>
       This is a web app which uses the Naive Bayes classifier
       to predict the gender of a person given weight and height
       based on the test data collected earlier.
     </p>
-  </body>
-</html>
