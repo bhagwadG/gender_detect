@@ -2,6 +2,7 @@ GenderDetect::Application.routes.draw do
    get "users/new"
    match '/about',   :to => 'pages#about'
    match '/train',  :to => 'users#new'
+   
    root :to => 'pages#home'
 
   # The priority is based upon order of creation:

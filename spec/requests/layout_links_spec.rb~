@@ -13,7 +13,7 @@ describe "LayoutLinks" do
   end
   
   it "should have a Training page at '/train'" do
-    get '/signup'
+    get '/train'
     response.should have_selector('title', :content => "Train")
   end
 end
