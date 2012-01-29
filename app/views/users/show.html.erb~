@@ -10,7 +10,6 @@
       <strong>Gender</strong> <%= @user.gender %><br />
       <strong>Weight</strong> <%= "#{@user.weight} pounds" %><br />
       <strong>Height</strong> <%= "#{@user.height} feet" %><br />
-      <strong>Edit:</strong>  <%= link_to "Edit_Person", edit_user_path(@user) %>
     </td>
   </tr>
 </table>

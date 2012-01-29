@@ -3,5 +3,5 @@
   <%= link_to "Person : #{user.id}" , user %> 
   | <%= link_to "edit", edit_user_path(user) %>
   | <%= link_to "delete", user, :method => :delete, :confirm => "You sure?",
-                                :title => 'Delete "Person : #{user.id}"' %>
+                                :title => "Delete  Person : #{user.id}" %>
 </li>

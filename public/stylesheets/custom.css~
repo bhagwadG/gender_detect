@@ -98,7 +98,7 @@ footer nav {
   float: none;
 }
 
-/* User show page */
+/* Person show page */
 
 table.profile {
   width: 100%;
@@ -167,4 +167,14 @@ div.field, div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+/*  Listing all People*/
+
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+  list-style: none;
 }
