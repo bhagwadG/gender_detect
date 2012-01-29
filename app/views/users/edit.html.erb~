@@ -1,7 +1,7 @@
-<h1>Train</h1>
+<h1>Edit user</h1>
 
 <%= form_for(@user) do |f| %>
-  <%= render 'shared/error_messages' %>
+  <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
     <%= f.label :gender %><br />
     <%= f.text_field :gender %>
@@ -15,6 +15,6 @@
     <%= f.text_field :height %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Update" %>
   </div>
 <% end %>

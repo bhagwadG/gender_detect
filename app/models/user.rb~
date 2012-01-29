@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   validates_numericality_of :weight, :only_integer => true, 
 			    :message => ":can only be whole number."
   validates_inclusion_of    :weight, :in => 60..500, 
-			    :message => ":can only be between 60 and 350 pounds."
+			    :message => ":can only be between 60 and 500 pounds."
   
   validates :height, :presence => true
   validates_numericality_of :height, :only_integer => true, 
